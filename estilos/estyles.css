@@ -22,6 +22,8 @@ body{
     font-size:1.6rem;
    
 }
+/*INCIO DEL HEADER*/
+/*----------------------------------------------------------------*/
 header{
     width:100%;
     height:60px;
@@ -47,7 +49,54 @@ header ul{
     font-weight: 600;
     color:var(--color-fuente2);
 }
+/*FIN DEL HEADER*/
+/*----------------------------------------------------------------*/
+/*INCIO DEL MAIN*/
+/*----------------------------------------------------------------*/
+main{
+    width:100%;
+    height:auto;
+    background-color: #2b2b2b;
+}
+.section__resumen{
+    display:flex;
+    flex-direction: row;
+    width:900px;
+    height:250px;
+    margin:0 auto;
+}
+.section__resumen--imgperfil{
+    width:150px;
+    height:100%;
+    object-fit: cover;
+    display:grid;
+    place-items: center;
+}
+.section__resumen--imgperfil img{
+    width:120px;
+    height:170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.section__resumen--descripcion{
+    padding-top:40px;
+    color:white;
+    
+}
+.section__resumen--descripcion p{
+    padding-top:10px;
+}
+
+.section__habilidades{
+
+}
+/*FIN DEL MAIN*/
+/*----------------------------------------------------------------*/
+/*INCIO DEL FOOTER*/
+/*----------------------------------------------------------------*/
 footer{
     width:100%;
     height:100px;
 }
+/*FIN DEL FOOTER*/
+/*----------------------------------------------------------------*/
